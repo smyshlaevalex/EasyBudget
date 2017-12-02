@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "3If-go-F3e"; */
+"3If-go-F3e.text" = "Detail";
+
+/* Class = "UINavigationItem"; title = "Календарь"; ObjectID = "7Su-Gh-Dnc"; */
+"7Su-Gh-Dnc.title" = "Календарь";
+
+/* Class = "UILabel"; text = "Сумма"; ObjectID = "ERv-Om-LAd"; */
+"ERv-Om-LAd.text" = "Сумма";
+
+/* Class = "UILabel"; text = "50000.00 р."; ObjectID = "Gc4-Tv-hMB"; */
+"Gc4-Tv-hMB.text" = "50000.00 р.";
+
+/* Class = "UITabBarItem"; title = "Сегодня"; ObjectID = "MLW-yt-IXt"; */
+"MLW-yt-IXt.title" = "Сегодня";
+
+/* Class = "UINavigationItem"; title = "График"; ObjectID = "Ul4-My-tgb"; */
+"Ul4-My-tgb.title" = "График";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "aiz-Eg-xW5"; */
+"aiz-Eg-xW5.text" = "Name";
+
+/* Class = "UINavigationItem"; title = "Сегодня"; ObjectID = "bnj-25-Hcg"; */
+"bnj-25-Hcg.title" = "Сегодня";
+
+/* Class = "UITabBarItem"; title = "Зарплаты/налоги"; ObjectID = "gvF-0C-7Kz"; */
+"gvF-0C-7Kz.title" = "Зарплаты/налоги";
+
+/* Class = "UILabel"; text = "Название"; ObjectID = "jjw-jS-6IU"; */
+"jjw-jS-6IU.text" = "Название";
+
+/* Class = "UINavigationItem"; title = "Зарплаты/налоги"; ObjectID = "m97-nd-IPn"; */
+"m97-nd-IPn.title" = "Зарплаты/налоги";
+
+/* Class = "UITabBarItem"; title = "Календарь"; ObjectID = "nXv-8M-TwV"; */
+"nXv-8M-TwV.title" = "Календарь";
+
+/* Class = "UITabBarItem"; title = "График"; ObjectID = "uWz-SE-qOU"; */
+"uWz-SE-qOU.title" = "График";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "yOA-ga-mMo"; */
+"yOA-ga-mMo.text" = "Detail";

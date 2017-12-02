@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="Budget_Widget" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uRi-Tz-V6G">
+                                <rect key="frame" x="59" y="30" width="202" height="41"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ei0-S2-uqf">
+                                    <rect key="frame" x="0.0" y="0.0" width="202" height="41"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k3n-8L-kXE">
+                                            <rect key="frame" x="0.0" y="0.0" width="202" height="41"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="9zT-1a-9sP">
+                                                <rect key="frame" x="0.0" y="0.0" width="202" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKZ-TK-O3T">
+                                                        <rect key="frame" x="27.5" y="5.5" width="147" height="30"/>
+                                                        <state key="normal" title="Add income/outcome">
+                                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="addTransaction:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="m6N-jG-300"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="pKZ-TK-O3T" firstAttribute="centerY" secondItem="9zT-1a-9sP" secondAttribute="centerY" id="F7S-Sg-ewJ"/>
+                                                    <constraint firstItem="pKZ-TK-O3T" firstAttribute="centerX" secondItem="9zT-1a-9sP" secondAttribute="centerX" id="WDh-pr-nu1"/>
+                                                </constraints>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="dark"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="k3n-8L-kXE" firstAttribute="height" secondItem="ei0-S2-uqf" secondAttribute="height" id="S0v-az-7js"/>
+                                        <constraint firstItem="k3n-8L-kXE" firstAttribute="centerX" secondItem="ei0-S2-uqf" secondAttribute="centerX" id="fms-it-SiN"/>
+                                        <constraint firstItem="k3n-8L-kXE" firstAttribute="width" secondItem="ei0-S2-uqf" secondAttribute="width" id="oG8-zT-TF2"/>
+                                        <constraint firstItem="k3n-8L-kXE" firstAttribute="centerY" secondItem="ei0-S2-uqf" secondAttribute="centerY" id="tEe-Qb-Bhm"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="Zma-7k-S0w"/>
+                                    <constraint firstAttribute="width" constant="202" id="nXY-oU-XSt"/>
+                                </constraints>
+                                <blurEffect style="dark"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </visualEffectView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="k3n-8L-kXE" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="30" id="0oG-tW-1m0"/>
+                            <constraint firstItem="uRi-Tz-V6G" firstAttribute="centerY" secondItem="S3S-Oj-5AN" secondAttribute="centerY" id="3EO-Bo-sP3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="k3n-8L-kXE" secondAttribute="trailing" constant="43" id="Yb6-hQ-hmv"/>
+                            <constraint firstItem="k3n-8L-kXE" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" constant="43" id="g3r-WL-MW9"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="k3n-8L-kXE" secondAttribute="bottom" constant="29" id="jxN-Er-ZIi"/>
+                            <constraint firstItem="uRi-Tz-V6G" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="kMC-oi-WcB"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="100"/>
+                    <connections>
+                        <outlet property="visualEffectForButton" destination="uRi-Tz-V6G" id="keT-Gn-1zN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="25.600000000000001" y="35.082458770614693"/>
+        </scene>
+    </scenes>
+</document>

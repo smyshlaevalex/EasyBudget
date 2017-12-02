@@ -1,0 +1,189 @@
+
+/* Class = "UILabel"; text = "Название"; ObjectID = "0KM-ax-Ix4"; */
+"0KM-ax-Ix4.text" = "Название";
+
+/* Class = "UINavigationItem"; title = "Выберите дату"; ObjectID = "1H4-3e-1sd"; */
+"1H4-3e-1sd.title" = "Выберите дату";
+
+/* Class = "UILabel"; text = "1.0"; ObjectID = "1wz-6p-MUq"; */
+"1wz-6p-MUq.text" = "1.0";
+
+/* Class = "UIButton"; normalTitle = "Закрыть обучение"; ObjectID = "2Hw-os-11C"; */
+"2Hw-os-11C.normalTitle" = "Закрыть обучение";
+
+/* Class = "UIBarButtonItem"; title = "Сохранить"; ObjectID = "3D6-ZT-tgY"; */
+"3D6-ZT-tgY.title" = "Сохранить";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "3If-go-F3e"; */
+"3If-go-F3e.text" = "Detail";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "3r6-qT-Bqd"; */
+"3r6-qT-Bqd.title" = " ";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "6EJ-zj-MTh"; */
+"6EJ-zj-MTh.text" = "Title";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "6R3-ER-R3W"; */
+"6R3-ER-R3W.text" = "Time";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "6Zd-gR-qDd"; */
+"6Zd-gR-qDd.title" = " ";
+
+/* Class = "UILabel"; text = "Удалить весь контент"; ObjectID = "77y-0a-HdN"; */
+"77y-0a-HdN.text" = "Удалить все данные";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "7fy-94-eZw"; */
+"7fy-94-eZw.title" = " ";
+
+/* Class = "UITableViewSection"; headerTitle = "График"; ObjectID = "8NL-37-8ZK"; */
+"8NL-37-8ZK.headerTitle" = "График";
+
+/* Class = "UINavigationItem"; title = "Календарь"; ObjectID = "C4e-aT-mFs"; */
+"C4e-aT-mFs.title" = "Календарь";
+
+/* Class = "UILabel"; text = "Автор"; ObjectID = "D8g-PQ-EDF"; */
+"D8g-PQ-EDF.text" = "Автор";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "DEk-8K-MEf"; */
+"DEk-8K-MEf.text" = "0";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "DSj-w7-Vs4"; */
+"DSj-w7-Vs4.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "Выберите"; ObjectID = "DWu-k8-aDS"; */
+"DWu-k8-aDS.title" = "Выберите";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "EHa-aq-2mc"; */
+"EHa-aq-2mc.text" = "Detail";
+
+/* Class = "UILabel"; text = "Сумма"; ObjectID = "ERv-Om-LAd"; */
+"ERv-Om-LAd.text" = "Сумма";
+
+/* Class = "UINavigationItem"; title = "Просмотр"; ObjectID = "Ef5-6w-xOx"; */
+"Ef5-6w-xOx.title" = "Просмотр";
+
+/* Class = "UILabel"; text = "Дата начала"; ObjectID = "Era-iC-BIA"; */
+"Era-iC-BIA.text" = "Дата начала";
+
+/* Class = "UILabel"; text = "0000"; ObjectID = "FJb-dW-RT6"; */
+"FJb-dW-RT6.text" = "0000";
+
+/* Class = "UILabel"; text = "Не выбрано"; ObjectID = "GyA-7a-6zo"; */
+"GyA-7a-6zo.text" = "Не выбрано";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Ikq-Oz-yzx"; */
+"Ikq-Oz-yzx.text" = "Title";
+
+/* Class = "UITableViewSection"; headerTitle = "График"; ObjectID = "LLe-a0-0xA"; */
+"LLe-a0-0xA.headerTitle" = "График";
+
+/* Class = "UILabel"; text = "Версия"; ObjectID = "Lwn-ZI-uqg"; */
+"Lwn-ZI-uqg.text" = "Версия";
+
+/* Class = "UITabBarItem"; title = "Сегодня"; ObjectID = "MLW-yt-IXt"; */
+"MLW-yt-IXt.title" = "Сегодня";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "Na5-SI-TCT"; */
+"Na5-SI-TCT.text" = "Detail";
+
+/* Class = "UILabel"; text = "Product"; ObjectID = "PG5-tr-QzO"; */
+"PG5-tr-QzO.text" = "Product";
+
+/* Class = "UITabBarItem"; title = "Настройки"; ObjectID = "PtD-OL-gkJ"; */
+"PtD-OL-gkJ.title" = "Настройки";
+
+/* Class = "UITextField"; placeholder = "Название"; ObjectID = "TYE-Lm-XFq"; */
+"TYE-Lm-XFq.placeholder" = "Название";
+
+/* Class = "UITextField"; placeholder = "Сумма"; ObjectID = "US2-9G-4fu"; */
+"US2-9G-4fu.placeholder" = "Сумма";
+
+/* Class = "UIBarButtonItem"; title = "Редактировать"; ObjectID = "Vfu-sT-Do0"; */
+"Vfu-sT-Do0.title" = "Редактировать";
+
+/* Class = "UIBarButtonItem"; title = "Сохранить"; ObjectID = "Wt4-dU-sNZ"; */
+"Wt4-dU-sNZ.title" = "Сохранить";
+
+/* Class = "UILabel"; text = "Product"; ObjectID = "aMY-XE-ETi"; */
+"aMY-XE-ETi.text" = "Product";
+
+/* Class = "UINavigationItem"; title = "Сегодня"; ObjectID = "bnj-25-Hcg"; */
+"bnj-25-Hcg.title" = "Сегодня";
+
+/* Class = "UILabel"; text = "Дата начала"; ObjectID = "c4P-RT-sSM"; */
+"c4P-RT-sSM.text" = "Дата начала";
+
+/* Class = "UILabel"; text = "0000"; ObjectID = "ccc-eZ-t9V"; */
+"ccc-eZ-t9V.text" = "0000";
+
+/* Class = "UIBarButtonItem"; title = "Сегодня"; ObjectID = "fkB-y4-Apk"; */
+"fkB-y4-Apk.title" = "Сегодня";
+
+/* Class = "UITabBarItem"; title = "Регулярные"; ObjectID = "gvF-0C-7Kz"; */
+"gvF-0C-7Kz.title" = "Регулярные";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "hVQ-i9-PV5"; */
+"hVQ-i9-PV5.text" = "Time";
+
+/* Class = "UILabel"; text = "Александр Смышляев"; ObjectID = "iJL-cZ-4gI"; */
+"iJL-cZ-4gI.text" = "Александр Смышляев";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "jV0-eC-ohO"; */
+"jV0-eC-ohO.text" = "Title";
+
+/* Class = "UILabel"; text = "Название"; ObjectID = "jjw-jS-6IU"; */
+"jjw-jS-6IU.text" = "Название";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "k6V-AW-gE0"; */
+"k6V-AW-gE0.text" = "Detail";
+
+/* Class = "UINavigationItem"; title = "Modal"; ObjectID = "kJu-uB-No8"; */
+"kJu-uB-No8.title" = "Modal";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "lUC-nw-9oS"; */
+"lUC-nw-9oS.title" = " ";
+
+/* Class = "UINavigationItem"; title = "Регулярные"; ObjectID = "m97-nd-IPn"; */
+"m97-nd-IPn.title" = "Регулярные";
+
+/* Class = "UITabBarItem"; title = "Календарь"; ObjectID = "nXv-8M-TwV"; */
+"nXv-8M-TwV.title" = "Календарь";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "o2t-vl-jyk"; */
+"o2t-vl-jyk.text" = "Label";
+
+/* Class = "UITableViewSection"; headerTitle = "О приложении"; ObjectID = "pFD-WH-EhB"; */
+"pFD-WH-EhB.headerTitle" = "О приложении";
+
+/* Class = "UINavigationItem"; title = "Добавить"; ObjectID = "pmb-2u-Beh"; */
+"pmb-2u-Beh.title" = "Добавить";
+
+/* Class = "UILabel"; text = "Сумма"; ObjectID = "rNe-Wg-aoe"; */
+"rNe-Wg-aoe.text" = "Сумма";
+
+/* Class = "UINavigationItem"; title = "График"; ObjectID = "sBd-O2-IXv"; */
+"sBd-O2-IXv.title" = "График";
+
+/* Class = "UITabBarItem"; title = "График"; ObjectID = "uWz-SE-qOU"; */
+"uWz-SE-qOU.title" = "График";
+
+/* Class = "UISegmentedControl"; uet-0d-dRt.segmentTitles[0] = "Дни"; ObjectID = "uet-0d-dRt"; */
+"uet-0d-dRt.segmentTitles[0]" = "Дни";
+
+/* Class = "UISegmentedControl"; uet-0d-dRt.segmentTitles[1] = "Месяцы"; ObjectID = "uet-0d-dRt"; */
+"uet-0d-dRt.segmentTitles[1]" = "Месяцы";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "w33-sF-afe"; */
+"w33-sF-afe.text" = "Detail";
+
+/* Class = "UINavigationItem"; title = "Настройки"; ObjectID = "xzC-Ux-h3D"; */
+"xzC-Ux-h3D.title" = "Настройки";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "yOA-ga-mMo"; */
+"yOA-ga-mMo.text" = "Detail";
+
+/* Class = "UIBarButtonItem"; title = "Сохранить"; ObjectID = "yTw-KW-Dol"; */
+"yTw-KW-Dol.title" = "Сохранить";
+
+/* Class = "UILabel"; text = "Обучение"; ObjectID = "zPW-Kd-K8c"; */
+"zPW-Kd-K8c.text" = "Обучение";

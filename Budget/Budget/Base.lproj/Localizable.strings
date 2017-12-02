@@ -1,0 +1,57 @@
+/* 
+  Localizable.strings
+  Budget
+
+  Created by Alexander Smyshlaev on 6/13/17.
+  Copyright © 2017 Alexander Smyshlaev. All rights reserved.
+*/
+
+"NO_DATA" = "No data";
+"TAP_TO_ADD" = "Tap + to add data";
+
+"DELETE" = "Delete";
+"EDIT" = "Edit";
+"ADD" = "Add";
+
+"TYPE" = "Type";
+"INCOME" = "Income";
+"EXPENSE" = "Expense";
+"CANCEL" = "Cancel";
+
+"HOURLY" = "Hourly";
+"DAILY" = "Daily";
+"WEEKLY"  = "Weekly";
+"MONTHLY" = "Monthly";
+"YEARLY" = "Yearly";
+
+"BLANK_FIELDS" = "Blank fields";
+"FILL_FIELDS" = "Please fill all the fields";
+"OK" = "Ok";
+
+"SELECT_AMOUNT_OF_HOURS" = "Select amount of hours";
+"SELECT_DAY" = "Select day";
+"SELECT_DATE" = "Select a date";
+
+"SCHEDULED_HOURLY" = "%i hours in a day";
+//use DAILY
+"SCHEDULED_WEEKLY" = "Weekly, on %@";
+"SCHEDULED_MONTHLY" = "Monthly, on %ith";
+"SCHEDULED_YEARLY" = "Yearly, in %ith of %@";
+
+"AT_TIME" = "at %@";
+
+"TITLE" = "Title";
+"AMOUNT" = "Amount";
+
+"REGULARS" = "Regulars";
+"TRANSACTIONS" = "Transactions";
+
+"DELETE_ALL_DATA" = "Delete all data?";
+"IMPOSSIBLE_TO_UNDO" = "This action is impossible to undo";
+
+"TUTORIAL1" = "Tap + to add new regular income/expense";
+"TUTORIAL2" = "Tap + to add new income/expense in the current moment of time";
+"TUTORIAL3" = "View your incomes/expenses on the calendar";
+"TUTORIAL4" = "View your charts in two different ways";
+"TUTORIAL5" = "Rewatch this tutorial or delete all data in settings";
+"TUTORIAL6" = "Add notification center widget to quickly add new incomes/expenses";

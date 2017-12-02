@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SQLite.swift-master/SQLite.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:JTAppleCalendar-master/JTAppleCalendar.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DZNEmptyDataSet-master/DZNEmptyDataSet/DZNEmptyDataSet.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Chameleon-master/Chameleon.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Budget/Budget.xcodeproj">
+   </FileRef>
+</Workspace>

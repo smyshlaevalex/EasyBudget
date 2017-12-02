@@ -1,0 +1,57 @@
+/* 
+  Localizable.strings
+  Budget
+
+  Created by Alexander Smyshlaev on 6/13/17.
+  Copyright © 2017 Alexander Smyshlaev. All rights reserved.
+*/
+
+"NO_DATA" = "Нет данных";
+"TAP_TO_ADD" = "Нажмите + чтобы добавить данные";
+
+"DELETE" = "Удалить";
+"EDIT" = "Редактировать";
+"ADD" = "Добавить";
+
+"TYPE" = "Выберите тип";
+"INCOME" = "Доход";
+"EXPENSE" = "Расход";
+"CANCEL" = "Отменить";
+
+"HOURLY" = "Почасово";
+"DAILY" = "Ежедневно";
+"WEEKLY"  = "Еженедельно";
+"MONTHLY" = "Ежемесячно";
+"YEARLY" = "Ежегодно";
+
+"BLANK_FIELDS" = "Незаполненные поля";
+"FILL_FIELDS" = "Заполните все поля";
+"OK" = "Oк";
+
+"SELECT_AMOUNT_OF_HOURS" = "Выберите часы";
+"SELECT_DAY" = "Выберите день";
+"SELECT_DATE" = "Выберите дату";
+
+"SCHEDULED_HOURLY" = "%i часов в день";
+//use DAILY
+"SCHEDULED_WEEKLY" = "Еженедельно в %@";
+"SCHEDULED_MONTHLY" = "Ежемесячно %i числа";
+"SCHEDULED_YEARLY" = "Ежегодно %i %@";
+
+"AT_TIME" = "в %@";
+
+"TITLE" = "Название";
+"AMOUNT" = "Сумма";
+
+"REGULARS" = "Регулярные";
+"TRANSACTIONS" = "Внеочередные";
+
+"DELETE_ALL_DATA" = "Удалить весь контент?";
+"IMPOSSIBLE_TO_UNDO" = "Это действие невозможно отменить";
+
+"TUTORIAL1" = "Нажмите + чтобы добавить регулярные расходы/доходы";
+"TUTORIAL2" = "Нажмите + чтобы добавить расход/доход в текущий момент времени";
+"TUTORIAL3" = "Просмотрите доходы/расходы на любой день";
+"TUTORIAL4" = "Выберите дни/месяцы для разного отображения графика";
+"TUTORIAL5" = "Просмотрите это обучение или удалите все данные в настройках";
+"TUTORIAL6" = "Добавьте виджет в центре уведомлений для быстрого добавления дохода/расхода";

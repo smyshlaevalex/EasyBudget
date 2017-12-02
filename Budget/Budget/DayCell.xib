@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DayCell" customModule="Budget" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="154" height="132"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QoE-q8-SFq">
+                    <rect key="frame" x="0.0" y="0.0" width="122" height="92"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="QoE-q8-SFq" secondAttribute="height" multiplier="1:1" id="Uhd-Lz-0Ba"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JaJ-pb-sVS">
+                    <rect key="frame" x="63" y="56" width="29.5" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g2v-9q-PIG">
+                    <rect key="frame" x="64" y="84" width="28" height="28"/>
+                    <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="6" id="EDw-wr-COU"/>
+                        <constraint firstAttribute="width" constant="6" id="iiF-Tg-E4h"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="QoE-q8-SFq" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="EJZ-Wn-yE5"/>
+                <constraint firstItem="QoE-q8-SFq" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="MEz-DT-384"/>
+                <constraint firstItem="g2v-9q-PIG" firstAttribute="top" secondItem="JaJ-pb-sVS" secondAttribute="bottom" id="NoV-Zs-OpP"/>
+                <constraint firstItem="g2v-9q-PIG" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="c5C-QS-qpM"/>
+                <constraint firstItem="JaJ-pb-sVS" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="lhm-hy-GPK"/>
+                <constraint firstItem="QoE-q8-SFq" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="pDe-Cn-e9z"/>
+                <constraint firstItem="JaJ-pb-sVS" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="z9q-c2-19i"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dayLabel" destination="JaJ-pb-sVS" id="dXb-Xt-KlP"/>
+                <outlet property="eventView" destination="g2v-9q-PIG" id="q2x-Zy-1sg"/>
+                <outlet property="selectedView" destination="QoE-q8-SFq" id="4TB-9e-CIE"/>
+            </connections>
+            <point key="canvasLocation" x="-86" y="-215"/>
+        </view>
+    </objects>
+</document>
