@@ -29,7 +29,7 @@ class ViewRegularTableViewController: UITableViewController {
         startingDateLabel.text = dateFormatter.string(from: regular.startingDate)
         
         
-        scheduleLabel.text = Regular.russificated(schedule: regular.schedule, scheduleData: regular.scheduleData)
+        scheduleLabel.text = Regular.localizedDescription(schedule: regular.schedule, scheduleData: regular.scheduleData)
         
         if regular.money > 0 {
             moneyLabel.textColor = UIColor.flatGreenDark

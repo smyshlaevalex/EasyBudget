@@ -33,7 +33,7 @@ struct Regular {
         self.scheduleData = scheduleData
     }
     
-    static func russificated(schedule: Schedule, scheduleData: Int?) -> String {
+    static func localizedDescription(schedule: Schedule, scheduleData: Int?) -> String {
         switch schedule {
         case .hourly:
             return String(format: NSLocalizedString("SCHEDULED_HOURLY", comment: ""), scheduleData!)

@@ -2,16 +2,16 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:SQLite.swift-master/SQLite.xcodeproj">
+      location = "group:../../Frameworks/SQLite.swift-master/SQLite.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:JTAppleCalendar-master/JTAppleCalendar.xcodeproj">
+      location = "group:../../Frameworks/JTAppleCalendar-master/JTAppleCalendar.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:DZNEmptyDataSet-master/DZNEmptyDataSet/DZNEmptyDataSet.xcodeproj">
+      location = "group:../../Frameworks/Chameleon-master/Chameleon.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Chameleon-master/Chameleon.xcodeproj">
+      location = "group:../../Frameworks/DZNEmptyDataSet-master/DZNEmptyDataSet/DZNEmptyDataSet.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Budget/Budget.xcodeproj">

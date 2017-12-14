@@ -43,7 +43,7 @@ class EditRegularTableViewController: UITableViewController, UITextFieldDelegate
                 return
             }
             
-            scheduleLabel.text = Regular.russificated(schedule: schedule, scheduleData: scheduleData)
+            scheduleLabel.text = Regular.localizedDescription(schedule: schedule, scheduleData: scheduleData)
         }
     }
     
